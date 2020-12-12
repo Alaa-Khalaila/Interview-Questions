@@ -34,7 +34,7 @@
     justify-content: space-evenly;
 }
 
-.buttons button{
+.buttons button,.start,.sol-btn,.next-btn{
     height: 50px;
     width: 130px;
     background-color: #FCC805;
@@ -46,8 +46,40 @@
     border-radius: 8px;
 }
 
-.buttons button:hover{
+.buttons button:hover,.start:hover,.sol-btn:hover,.next-btn:hover{
     cursor: pointer;
     background-color: #CF9898;
     color: #ffffff;
+}
+
+/*------------------------------------- Node -----------------------------------*/
+
+.sol-btn{
+    position: fixed;
+    bottom: 200px;
+    right: 550px;
+}
+
+.qa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.qa h2{
+    margin-bottom: 30px;
+}
+
+.qa h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e8f280;
+}
+
+.next-btn{
+    position: fixed;
+    bottom: 200px;
+    right: 400px;
 }
