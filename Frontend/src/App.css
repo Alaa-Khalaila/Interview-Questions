@@ -14,6 +14,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container h3{
+    font-size: 50px;
+    color: #ffffff;
+    padding: 80px 0 0 22%;
+    margin-bottom: -100px;
+}
+
+.container span{
+    color:  #FCC805;
+}
+
 .box{
     color: #ffffff;
     margin: 14% 0 0 25%;
@@ -36,7 +47,7 @@
 
 .buttons button,.start,.sol-btn,.next-btn{
     height: 50px;
-    width: 130px;
+    width: 140px;
     background-color: #FCC805;
     border: none;
     outline: none;
