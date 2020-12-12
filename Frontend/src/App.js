@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home'
 import Node from './components/Node'
 import Reactt from './components/Reactt'
+import Devloper from './components/Devloper'
 
 export default class App extends Component {
   render() {
@@ -17,6 +18,9 @@ export default class App extends Component {
         </Route>
         <Route path='/react'>
           <Reactt/>
+        </Route>
+        <Route path='/devlopers'>
+          <Devloper/>
         </Route>
       </Router>
         

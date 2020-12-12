@@ -304,7 +304,77 @@ const reactData=[
 
 ];
 
+const devloperData =[
+    {
+        question:`Tell me about a project you completed successfully. Why do you consider it a success?`
+    },
+    {
+        question:`How have you previously detected errors that weren't obvious?`
+    },
+    {
+        question:`Do you have experience working in a multidisciplinary team? If you do, did you like it and why? If you haven't, would you like to and why?`
+    },
+    {
+        question:`What qualities make you a great developer?`
+    },
+    {
+        question:`What programming languages or frameworks are you familiar with?`
+    },
+    {
+        question:`How do you handle work-related stress?`
+    },
+    {
+        question:`Have you ever had a project delay or error that you had to explain to your supervisor or client? How did you go about it?`
+    },
+    {
+        question:`What is your favorite thing about being a developer?`
+    },
+    {
+        question:`Tell me about a time you exceeded job expectations as a developer. Were you rewarded? If so, how did it make you feel?`
+    },
+    {
+        question:`What is your least favorite thing about being a developer?`
+    },
+    {
+        question:`What operating systems do you have experience with?`
+    },
+    {
+        question:`Tell me about your typical day in your current or most recent role as a developer.`
+    },
+    {
+        question:`Have you ever had a failed project? Give me an example and explain why you think it was a failure. What would`
+    },
+    {
+        question:`you have done differently to ensure its success?`
+    },
+    {
+        question:`How do you prioritize your tasks as a developer?`
+    },
+    {
+        question:`What do you hope to learn from your manager?`
+    },
+    {
+        question:`If we gave you several tasks due at the end of the day and you weren't able to finish them in time, how would you handle this situation?`
+    },
+    {
+        question:`Can you briefly tell me about some projects you worked on recently and the approach you took from start to finish?`
+    },
+    {
+        question:`Tell me about a tough development problem you've had in the past and how you solved it.`
+    },
+    {
+        question:`Is there anything you would change about how you performed in your most recent role? Why?`
+    },
+    {
+        question:`Why should we choose you for this position?`
+    },
+    {
+        question:`Tell me about a time when miscommunication impacted one of your projects. How did you handle it?`
+    },
+    {
+        question:`Describe a time when you experienced a significant project change last minute. How did you handle it and complete the project on time?`
+    },
+]
 
-
-export {nodeData,reactData}
+export {nodeData,reactData,devloperData}
 
