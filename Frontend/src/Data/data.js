@@ -1,4 +1,4 @@
-export const data =[
+const nodeData =[
     {
         question : `What is Node.js? Where can you use it?`,
         answer :`Node.js is an open-source, cross-platform JavaScript runtime environment and library to run web applications  outside the client’s browser. It is used to create server-side web applications.
@@ -211,4 +211,100 @@ export const data =[
         Specify a connection URL with the correct IP address and the name of the database you want to create`
     },
     
-]
+];
+
+const reactData=[
+    {
+        question:`What is JSX?`,
+        answer:`JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.`
+    },
+    {
+        question:`Can web browsers read JSX directly? `,
+        answer:`Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular JavaScript object 
+        For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript object. For this, we use Babel`
+    },
+    {
+        question:` What is the virtual DOM?`,
+        answer:`DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects.
+        React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects.`
+    },
+    {
+        question:`What is the difference between the ES6 and ES5 standards?`,
+        answer:`Components and Function,
+        exports and export,require and import`
+    },
+    {
+        question:`How do you create a React app?`,
+        answer:`Install NodeJS on the computer because we need npm to install the React library. Npm is the node package manager that contains many JavaScript libraries, including React.
+        Install the create-react-app package using the command prompt or terminal.
+        Install a text editor of your choice, like VS Code or Sublime Text.`
+    },
+    {
+        question:`What is an event in React?`,
+        answer:`An event is an action that a user or system may trigger, such as pressing a key, a mouse click, etc.
+
+        React events are named using camelCase, rather than lowercase in HTML.
+        With JSX, you pass a function as the event handler, rather than a string in HTML.`
+    },
+    {
+        question:`Explain how lists work in React`,
+        answer:`We create lists in React as we do in regular JavaScript. Lists display data in an ordered format
+        The traversal of lists is done using the map() function`
+    },
+    {
+        question:`Why is there a need for using keys in Lists?`,
+        answer:`Keys are very important in lists for the following reasons:
+
+        A key is a unique identifier and it is used to identify which items have changed, been updated or deleted from the lists
+        It also helps to determine which components need to be re-rendered instead of re-rendering all the components every time. Therefore, it increases performance, as only the updated components are re-rendered`
+    },
+    {
+        question:` What are forms in React?`,
+        answer:`React employs forms to enable users to interact with web applications.
+
+        Using forms, users can interact with the application and enter the required information whenever needed. Form contain certain elements, such as text fields, buttons, checkboxes, radio buttons, etc
+        Forms are used for many different tasks such as user authentication, searching, filtering, indexing, etc`
+    },
+    {
+        question:`How do you write comments in React?`,
+        answer:`Single-line comments #....,
+        Multi-line comments {/* ..... */}`
+    },
+    {
+        question:`What is the use of render() in React?`,
+        answer:`It is required for each component to have a render() function. This function returns the HTML, which is to be displayed in the component.
+        If you need to render more than one element, all of the elements must be inside one parent tag like <div>, <form>.`
+    },
+    {
+        question:`What is a state in React?`,
+        answer:`The state is a built-in React object that is used to contain data or information about the component. The state in a component can change over time, and whenever it changes, the component re-renders.
+        The change in state can happen as a response to user action or system-generated events. It determines the behavior of the component and how it will render.`
+    },
+    {
+        question:`How do you update the state of a component?`,
+        answer:`We can update the state of a component by using the built-in ‘setState()’ method`
+    },
+    {
+        question:`What are props in React?`,
+        answer:`Props are short for Properties. It is a React built-in object that stores the value of attributes of a tag and works similarly to HTML attributes.
+        Props provide a way to pass data from one component to another component. Props are passed to the component in the same way as arguments are passed in a function.`
+    },
+    {
+        question:`What is a higher-order component in React?`,
+        answer:`A higher-order component acts as a container for other components. This helps to keep components simple and enables re-usability. They are generally used when multiple components have to use a common logic. `
+    },
+    {
+        question:`Explain the lifecycle methods of components.`,
+        answer:`getInitialState(): This is executed before the creation of the component.
+        componentDidMount(): Is executed when the component gets rendered and placed on the DOM.
+        shouldComponentUpdate(): Is invoked when a component determines changes to the DOM and returns a “true” or “false” value based on certain conditions.
+        componentDidUpdate(): Is invoked immediately after rendering takes place.
+        componentWillUnmount(): Is invoked immediately before a component is destroyed and unmounted permanently.`
+    },
+
+];
+
+
+
+export {nodeData,reactData}
+

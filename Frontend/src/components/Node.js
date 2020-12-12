@@ -1,5 +1,5 @@
 import React,{useState}  from 'react'
-import {data} from '../Data/data'
+import {nodeData} from '../Data/data'
 import { Link } from 'react-router-dom';
 
 
@@ -23,8 +23,8 @@ const Node = () => {
         random()
     }
     const random =()=>{
-       let number = Math.floor(Math.random() * data.length);
-       if(Done.length===data.length-1) {
+       let number = Math.floor(Math.random() * nodeData.length);
+       if(Done.length===nodeData.length-1) {
            setEnd(true)
            return""
         }
@@ -41,8 +41,8 @@ const Node = () => {
             <div className='box'>
                 {!Started?<button className='start' onClick={()=>go_in()}>START</button>:
                 <div className='qa'>
-                    <h2>{data[Ran].question}</h2>
-                    {!Solution?<button className='sol-btn' onClick={()=>get_solution()}>Solution</button>:<h4>{data[Ran].answer}</h4>}
+                    <h2>{nodeData[Ran].question}</h2>
+                    {!Solution?<button className='sol-btn' onClick={()=>get_solution()}>Solution</button>:<h4>{nodeData[Ran].answer}</h4>}
                     <button className='next-btn' onClick={()=>nxt_question()}>Next</button>
                     {End?<Link to='/'><button className='start'>Finished</button></Link>:''}
                 </div>}
