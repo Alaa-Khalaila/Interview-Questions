@@ -87,6 +87,8 @@
     justify-content: center;
     align-items: center;
     color: #e8f280;
+    white-space: pre-wrap;
+    margin: 20px;
 }
 
 .next-btn{
