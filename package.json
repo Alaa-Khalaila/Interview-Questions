@@ -2,7 +2,6 @@
   "name": "react-starter-code",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Alaa-Khalila.github.io/Interview-Questions",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -16,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d Frontend",
+    "deploy": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
