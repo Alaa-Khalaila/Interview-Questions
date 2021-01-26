@@ -1,98 +1,124 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(./components/Pics/bg.jpg);
-    background-position: center;
-    background-size: cover;
-    position: fixed;
-    font-family: 'Roboto', sans-serif;
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./components/Pics/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
 }
 
-.container h3{
-    font-size: 50px;
-    color: #ffffff;
-    padding: 80px 0 0 23%;
-    margin-bottom: -100px;
+.container h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  font-size: 50px;
+  color: #ffffff;
 }
 
-.container span{
-    color:  #FCC805;
+.container span {
+  color: #fcc805;
+  margin-left: 9px;
 }
 
-.box{
-    color: #ffffff;
-    margin: 14% 0 0 25%;
-    width: 50%;
-    height: 35%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid #ffffff;
-    border-radius: 10px;
+.box {
+  color: #ffffff;
+  width: 100%;
+  height: 75%;
 }
 
-.buttons{
-    margin-top: 70px;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+.box-items {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
-.buttons button,.start,.sol-btn,.next-btn{
-    height: 50px;
-    width: 140px;
-    background-color: #FCC805;
-    border: none;
-    outline: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
-    border-radius: 8px;
+.buttons button,
+.start,
+.sol-btn,
+.next-btn {
+  height: 50px;
+  width: 140px;
+  background-color: #fcc805;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  border-radius: 8px;
 }
 
-.buttons button:hover,.start:hover,.sol-btn:hover,.next-btn:hover{
-    cursor: pointer;
-    background-color: #CF9898;
-    color: #ffffff;
+.buttons button:hover,
+.start:hover,
+.sol-btn:hover,
+.next-btn:hover {
+  cursor: pointer;
+  background-color: #cf9898;
+  color: #ffffff;
 }
 
 /*------------------------------------- Node -----------------------------------*/
 
-.sol-btn{
-    position: fixed;
-    bottom: 200px;
-    right: 550px;
+.node-cont {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qa {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.qa{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.qa h2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 35px;
 }
 
-.qa h2{
-    margin-bottom: 30px;
+.qa h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8f280;
+  white-space: pre-wrap;
+  margin: 20px;
+  font-size: 20px;
 }
 
-.qa h4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e8f280;
-    white-space: pre-wrap;
-    margin: 20px;
+.ans-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.next-btn{
-    position: fixed;
-    bottom: 200px;
-    right: 400px;
+.ans-btn button {
+  margin: 0 10px;
 }
